@@ -1,0 +1,32 @@
+#netflix-logo {
+    width: 10rem;
+}
+
+#kids {
+    width: 5%;
+}
+
+#height-section {
+    height: 6vh;
+}
+
+
+
+@mixin newDimensions {
+    width: 1.5em;
+    height: 1.5em; 
+}
+
+#flexCheckDefault {
+ @include newDimensions()
+}
+
+$colorsAdded: (
+    'greyMd': #5c5e5c,
+    'greyH': #2a2b2b,
+
+);
+
+ .zoom:hover {
+    transform: scale(1.5);
+ }
